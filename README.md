@@ -225,3 +225,14 @@ tree, commits. New work lands here only.
 
 Fork of [Diff Visualizer](https://github.com/lxliang912/diff-visualizer)
 (lxliang912 / lkcoffee). See [NOTICE](./NOTICE) and [LICENSE](./LICENSE).
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind. To the extent
+permitted by law, the authors and contributors are not liable for any damage, loss
+or claim arising from its use or misuse. You are responsible for how you use it and
+for following the laws and rules that apply to you. The full terms are in
+[LICENSE](LICENSE).
+
+This extension is not affiliated with or endorsed by Microsoft. Visual Studio Code
+is a trademark of Microsoft Corporation.
