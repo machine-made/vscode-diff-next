@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardofrantz/vscode-diff-next.git"
+    "url": "https://github.com/machine-made/vscode-diff-next.git"
   },
   "bugs": {
-    "url": "https://github.com/ricardofrantz/vscode-diff-next/issues"
+    "url": "https://github.com/machine-made/vscode-diff-next/issues"
   },
-  "homepage": "https://github.com/ricardofrantz/vscode-diff-next",
+  "homepage": "https://github.com/machine-made/vscode-diff-next",
   "engines": {
     "vscode": "^1.95.0",
     "node": ">=22"
