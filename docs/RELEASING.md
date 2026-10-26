@@ -1,6 +1,6 @@
 # Releasing and maintainer notes
 
-Same release flow as [vscode-pdf Next](https://github.com/ricardofrantz/vscode-pdf-next/blob/main/docs/RELEASING.md).
+Same release flow as [vscode-pdf Next](https://github.com/machine-made/vscode-pdf-next/blob/main/docs/RELEASING.md).
 
 ## Releasing (tag-driven)
 
@@ -36,9 +36,9 @@ Create the Azure DevOps PAT with **Marketplace → Manage**, organization
 **All accessible organizations**, then:
 
 ```bash
-gh secret set VSCE_PAT -R ricardofrantz/vscode-diff-next
+gh secret set VSCE_PAT -R machine-made/vscode-diff-next
 # optional:
-gh secret set OVSX_PAT -R ricardofrantz/vscode-diff-next
+gh secret set OVSX_PAT -R machine-made/vscode-diff-next
 ```
 
 ## Release workflow guardrails
