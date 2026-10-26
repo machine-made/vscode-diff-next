@@ -152,7 +152,7 @@
     "watch": "tsc -watch -p ./",
     "lint": "eslint src",
     "package": "vsce package",
-    "check:lockfile": "node scripts/check-lockfile-registry.js",
+    "check:lockfile": "node scripts/check-lockfile-registry.test.js && node scripts/check-lockfile-registry.js",
     "smoke:paths": "node scripts/smoke-paths.js",
     "smoke:status": "node scripts/smoke-status.js",
     "smoke:picker": "node scripts/smoke-picker.js",
