@@ -152,6 +152,7 @@
     "watch": "tsc -watch -p ./",
     "lint": "eslint src",
     "package": "vsce package",
+    "check:lockfile": "node scripts/check-lockfile-registry.js",
     "smoke:paths": "node scripts/smoke-paths.js",
     "smoke:status": "node scripts/smoke-status.js",
     "smoke:picker": "node scripts/smoke-picker.js",
@@ -174,6 +175,6 @@
     "typescript": "^5.x"
   },
   "dependencies": {
-    "simple-git": "^3.22.0"
+    "simple-git": "^4.0.2"
   }
 }
