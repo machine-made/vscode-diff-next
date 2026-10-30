@@ -1,4 +1,4 @@
-import simpleGit, { SimpleGit } from 'simple-git';
+import { simpleGit, SimpleGit } from 'simple-git';
 import * as path from 'path';
 import * as fs from 'fs';
 import { STATUS_MAP, type FileStatus } from './fileStatus';
