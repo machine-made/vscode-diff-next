@@ -1,8 +1,8 @@
 # vscode-diff Next — compare branches and repos side by side
 
-[![CI](https://github.com/ricardofrantz/vscode-diff-next/actions/workflows/ci.yml/badge.svg)](https://github.com/ricardofrantz/vscode-diff-next/actions/workflows/ci.yml)
+[![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![GitHub](https://img.shields.io/badge/github-vscode--diff--next-blue)](https://github.com/ricardofrantz/vscode-diff-next)
+[![GitHub](https://img.shields.io/badge/github-vscode--diff--next-blue)](https://github.com/machine-made/vscode-diff-next)
 
 Compare any two Git endpoints — two branches of one repo, or branches of **two
 different repos** in a multi-root workspace — with a changed-file tree, commit
@@ -12,7 +12,7 @@ history, and one-click built-in diffs, all in a dedicated sidebar.
 [Diff Visualizer](https://github.com/lxliang912/diff-visualizer) lineage. The
 upstream git history stays in this repo so the fork trail is honest. Packaging,
 security posture, docs, and day-to-day tooling follow the same bar as
-[vscode-pdf Next](https://github.com/ricardofrantz/vscode-pdf-next).
+[vscode-pdf Next](https://github.com/machine-made/vscode-pdf-next).
 
 ![screenshot](./images/img_example.png)
 
@@ -54,7 +54,7 @@ security posture, docs, and day-to-day tooling follow the same bar as
 
 Requires **VS Code 1.95+** and **Git** on `PATH`. For the install scripts, the
 VS Code CLI (`code`) must be on `PATH` too. Prebuilt VSIX files are attached to
-[GitHub Releases](https://github.com/ricardofrantz/vscode-diff-next/releases).
+[GitHub Releases](https://github.com/machine-made/vscode-diff-next/releases).
 
 ### From this repo
 
@@ -193,7 +193,7 @@ See [SECURITY.md](./SECURITY.md) for reporting.
 
 | | **vscode-pdf Next** | **vscode-diff Next** |
 | -- | ------------------- | -------------------- |
-| Repository | `ricardofrantz/vscode-pdf-next` | `ricardofrantz/vscode-diff-next` |
+| Repository | `machine-made/vscode-pdf-next` | `machine-made/vscode-diff-next` |
 | Display name | `vscode-pdf Next` | `vscode-diff Next` |
 | Package name | `pdf-preview-next` | `diff-next` |
 | Install id | `RicardoFrantz.pdf-preview-next` | `RicardoFrantz.diff-next` |

@@ -31,7 +31,7 @@
   .\update-extension.ps1
   .\update-extension.ps1 -NoRestart
   .\update-extension.ps1 -DevHost
-  .\update-extension.ps1 -Workspace C:\Users\RicardoFrantz\ShapeSolver-2.6.0
+  .\update-extension.ps1 -Workspace C:\path\to\vscode-diff-next
 #>
 [CmdletBinding()]
 param(
