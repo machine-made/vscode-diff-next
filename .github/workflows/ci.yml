@@ -37,6 +37,10 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Check lockfile registry
+        # Every resolved URL must point at registry.npmjs.org.
+        run: npm run check:lockfile
+
       - name: Install dependencies
         run: npm ci
 

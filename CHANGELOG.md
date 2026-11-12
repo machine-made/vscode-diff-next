@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.1
+
+Security update for the git library the extension uses.
+
+- Updated `simple-git` from 3.x to 4.0.2, which fixes a critical vulnerability
+  ([GHSA-v5rq-49vh-5v5c](https://github.com/advisories/GHSA-v5rq-49vh-5v5c)).
+- Added a disclaimer to the README.
+
 ## 0.10.0
 
 Tabs behave like editor tabs, and the picker remembers the folder you are in.
