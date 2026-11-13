@@ -18,17 +18,17 @@ security posture, docs, and day-to-day tooling follow the same bar as
 
 ## Why this extension?
 
-- 🔀 **Branch compare without leaving the editor.** Pick two endpoints
+- **Branch compare without leaving the editor.** Pick two endpoints
   (`{folder} · {ref}`); see every changed path and the commits between them.
-- 🗂️ **Cross-repo compare.** Each side can be a different repository in your
+- **Cross-repo compare.** Each side can be a different repository in your
   workspace — ideal for comparing versioned checkouts (`app-2.5` vs `app-2.6`)
   that don't share a git history.
-- ✅ **Honest file status.** Status comes from `git diff --name-status`
+- **Honest file status.** Status comes from `git diff --name-status`
   (A/M/D/R/C, NUL-safe parsing, rename detection) — not guessed from
   insert/delete counts. Renamed files diff old name ↔ new name.
-- 🕘 **Commit history.** Searchable list for the `base..target` range; subject
+- **Commit history.** Searchable list for the `base..target` range; subject
   and body exactly as git wrote them.
-- 🔒 **Hardened.** Nonce-based webview CSP, untrusted-input validation on every
+- **Hardened.** Nonce-based webview CSP, untrusted-input validation on every
   ref and path crossing the webview boundary, no shell execution
   (refs and paths are passed to git as discrete arguments).
 
@@ -36,19 +36,19 @@ security posture, docs, and day-to-day tooling follow the same bar as
 
 | Feature | Status |
 | ------- | ------ |
-| Dual targets: any two workspace repos + branches | ✅ |
-| Session tabs: hold several compares at once | ✅ |
-| Folder-then-branch picker (searchable, not a short OS list) | ✅ |
-| SCM-style list (M / U / D / R / C) with foldable groups | ✅ |
-| M → side-by-side diff; U/D → single side; R → old ↔ new | ✅ |
-| Images and PDFs open in their viewer, changed ones side by side | ✅ |
-| Open Target 2 worktree file (↗) | ✅ |
-| Editable diff + per-change revert arrow (→) when Target 2 is checked out | ✅ |
-| Discard: apply Target 1 → Target 2 worktree (binary-safe) | ✅ |
-| Commit history + search (same-repo only, capped at 1000) | ✅ |
-| Persist open tabs + last pair + list font size | ✅ |
-| Unicode / unusual filenames | ✅ (`-z` parsing) |
-| Windows / Linux / macOS | ✅ (`git` on `PATH`) |
+| Dual targets: any two workspace repos + branches | yes |
+| Session tabs: hold several compares at once | yes |
+| Folder-then-branch picker (searchable, not a short OS list) | yes |
+| SCM-style list (M / U / D / R / C) with foldable groups | yes |
+| M → side-by-side diff; U/D → single side; R → old ↔ new | yes |
+| Images and PDFs open in their viewer, changed ones side by side | yes |
+| Open Target 2 worktree file (↗) | yes |
+| Editable diff + per-change revert arrow (→) when Target 2 is checked out | yes |
+| Discard: apply Target 1 → Target 2 worktree (binary-safe) | yes |
+| Commit history + search (same-repo only, capped at 1000) | yes |
+| Persist open tabs + last pair + list font size | yes |
+| Unicode / unusual filenames | yes (`-z` parsing) |
+| Windows / Linux / macOS | yes (`git` on `PATH`) |
 
 ## Getting started
 
