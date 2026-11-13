@@ -1,10 +1,9 @@
-# vscode-diff Next — compare branches and repos side by side
-
-[![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
+[![Marketplace](https://vsmarketplacebadges.dev/version/RicardoFrantz.diff-next.svg)](https://marketplace.visualstudio.com/items?itemName=RicardoFrantz.diff-next)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/github-vscode--diff--next-blue)](https://github.com/machine-made/vscode-diff-next)
 
-Compare any two Git endpoints — two branches of one repo, or branches of **two
+`vscode-diff-next` compares any two Git endpoints — two branches of one repo, or branches of **two
 different repos** in a multi-root workspace — with a changed-file tree, commit
 history, and one-click built-in diffs, all in a dedicated sidebar.
 
