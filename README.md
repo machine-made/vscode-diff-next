@@ -1,3 +1,5 @@
+![vscode-diff-next banner](https://raw.githubusercontent.com/machine-made/vscode-diff-next/main/assets/readme-banner-v3.jpg)
+
 [![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
 [![Marketplace](https://vsmarketplacebadges.dev/version/RicardoFrantz.diff-next.svg)](https://marketplace.visualstudio.com/items?itemName=RicardoFrantz.diff-next)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
