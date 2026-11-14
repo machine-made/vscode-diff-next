@@ -1,10 +1,11 @@
-# vscode-diff Next — compare branches and repos side by side
+![vscode-diff-next banner](https://raw.githubusercontent.com/machine-made/vscode-diff-next/main/assets/readme-banner-v3.jpg)
 
-[![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![CI](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/machine-made/vscode-diff-next/actions/workflows/ci.yml)
+[![Marketplace](https://vsmarketplacebadges.dev/version/RicardoFrantz.diff-next.svg)](https://marketplace.visualstudio.com/items?itemName=RicardoFrantz.diff-next)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/github-vscode--diff--next-blue)](https://github.com/machine-made/vscode-diff-next)
 
-Compare any two Git endpoints — two branches of one repo, or branches of **two
+`vscode-diff-next` compares any two Git endpoints — two branches of one repo, or branches of **two
 different repos** in a multi-root workspace — with a changed-file tree, commit
 history, and one-click built-in diffs, all in a dedicated sidebar.
 
@@ -18,17 +19,17 @@ security posture, docs, and day-to-day tooling follow the same bar as
 
 ## Why this extension?
 
-- 🔀 **Branch compare without leaving the editor.** Pick two endpoints
+- **Branch compare without leaving the editor.** Pick two endpoints
   (`{folder} · {ref}`); see every changed path and the commits between them.
-- 🗂️ **Cross-repo compare.** Each side can be a different repository in your
+- **Cross-repo compare.** Each side can be a different repository in your
   workspace — ideal for comparing versioned checkouts (`app-2.5` vs `app-2.6`)
   that don't share a git history.
-- ✅ **Honest file status.** Status comes from `git diff --name-status`
+- **Honest file status.** Status comes from `git diff --name-status`
   (A/M/D/R/C, NUL-safe parsing, rename detection) — not guessed from
   insert/delete counts. Renamed files diff old name ↔ new name.
-- 🕘 **Commit history.** Searchable list for the `base..target` range; subject
+- **Commit history.** Searchable list for the `base..target` range; subject
   and body exactly as git wrote them.
-- 🔒 **Hardened.** Nonce-based webview CSP, untrusted-input validation on every
+- **Hardened.** Nonce-based webview CSP, untrusted-input validation on every
   ref and path crossing the webview boundary, no shell execution
   (refs and paths are passed to git as discrete arguments).
 
@@ -36,19 +37,19 @@ security posture, docs, and day-to-day tooling follow the same bar as
 
 | Feature | Status |
 | ------- | ------ |
-| Dual targets: any two workspace repos + branches | ✅ |
-| Session tabs: hold several compares at once | ✅ |
-| Folder-then-branch picker (searchable, not a short OS list) | ✅ |
-| SCM-style list (M / U / D / R / C) with foldable groups | ✅ |
-| M → side-by-side diff; U/D → single side; R → old ↔ new | ✅ |
-| Images and PDFs open in their viewer, changed ones side by side | ✅ |
-| Open Target 2 worktree file (↗) | ✅ |
-| Editable diff + per-change revert arrow (→) when Target 2 is checked out | ✅ |
-| Discard: apply Target 1 → Target 2 worktree (binary-safe) | ✅ |
-| Commit history + search (same-repo only, capped at 1000) | ✅ |
-| Persist open tabs + last pair + list font size | ✅ |
-| Unicode / unusual filenames | ✅ (`-z` parsing) |
-| Windows / Linux / macOS | ✅ (`git` on `PATH`) |
+| Dual targets: any two workspace repos + branches | yes |
+| Session tabs: hold several compares at once | yes |
+| Folder-then-branch picker (searchable, not a short OS list) | yes |
+| SCM-style list (M / U / D / R / C) with foldable groups | yes |
+| M → side-by-side diff; U/D → single side; R → old ↔ new | yes |
+| Images and PDFs open in their viewer, changed ones side by side | yes |
+| Open Target 2 worktree file (↗) | yes |
+| Editable diff + per-change revert arrow (→) when Target 2 is checked out | yes |
+| Discard: apply Target 1 → Target 2 worktree (binary-safe) | yes |
+| Commit history + search (same-repo only, capped at 1000) | yes |
+| Persist open tabs + last pair + list font size | yes |
+| Unicode / unusual filenames | yes (`-z` parsing) |
+| Windows / Linux / macOS | yes (`git` on `PATH`) |
 
 ## Getting started
 
