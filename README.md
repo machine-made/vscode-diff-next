@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/github-vscode--diff--next-blue)](https://github.com/machine-made/vscode-diff-next)
 
-`vscode-diff-next` compares any two Git endpoints — two branches of one repo, or branches of **two
-different repos** in a multi-root workspace — with a changed-file tree, commit
-history, and one-click built-in diffs, all in a dedicated sidebar.
+`vscode-diff-next` compares any two Git endpoints. The two endpoints are two branches of one repo, or branches of **two
+different repos** in a multi-root workspace. A dedicated sidebar shows a changed-file tree, the commit
+history and one-click built-in diffs.
 
 **vscode-diff Next** is the actively maintained product on top of the classic
 [Diff Visualizer](https://github.com/lxliang912/diff-visualizer) lineage. The
@@ -24,12 +24,12 @@ security posture, docs, and day-to-day tooling follow the same bar as
 - **Cross-repo compare.** Each side can be a different repository in your
   workspace — ideal for comparing versioned checkouts (`app-2.5` vs `app-2.6`)
   that don't share a git history.
-- **Honest file status.** Status comes from `git diff --name-status`
+- **File status.** Status comes from `git diff --name-status`
   (A/M/D/R/C, NUL-safe parsing, rename detection) — not guessed from
   insert/delete counts. Renamed files diff old name ↔ new name.
 - **Commit history.** Searchable list for the `base..target` range; subject
   and body exactly as git wrote them.
-- **Hardened.** Nonce-based webview CSP, untrusted-input validation on every
+- **Webview security.** Nonce-based webview CSP, untrusted-input validation on every
   ref and path crossing the webview boundary, no shell execution
   (refs and paths are passed to git as discrete arguments).
 
