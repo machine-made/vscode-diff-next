@@ -7,7 +7,7 @@
 
 `vscode-diff-next` compares any two Git endpoints. The two endpoints are two branches of one repo, or branches of **two
 different repos** in a multi-root workspace. A dedicated sidebar shows a changed-file tree, the commit
-history and one-click built-in diffs.
+history and built-in diffs.
 
 **vscode-diff Next** is the actively maintained product on top of the classic
 [Diff Visualizer](https://github.com/lxliang912/diff-visualizer) lineage. The
